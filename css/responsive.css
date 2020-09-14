@@ -6,7 +6,7 @@
         .top-bar .col-md-8 {
             justify-content: center;
         }
-        
+
         .top-bar p {
             font-size: 10px;
         }
@@ -33,7 +33,7 @@
 
         /* Start Banner */
         .banner .content {
-            margin-top: 150px;
+            margin-top: 180px;
             color: white;
         }
 
@@ -53,6 +53,27 @@
             text-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
         }
         /* End Banner */
+
+
+        /* Start About */
+        .about .kotak {
+            margin-bottom: 20px;
+        }
+        /* End About */
     
+    /* End Main Area */
+}
+
+
+/* Tablet Device */
+@media only screen and (max-width: 1023px) {
+    /* Start Main Area */
+
+        /* Start About */
+        .about .kotak {
+            margin-bottom: 20px;
+        }
+        /* End About */
+
     /* End Main Area */
 }

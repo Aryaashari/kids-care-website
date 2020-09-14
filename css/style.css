@@ -12,6 +12,13 @@ body {
     color: orange;
 }
 
+/* Utility */
+.tombol {
+    border-radius: 8px;
+    font-family: 'Grandstander', sans-serif;
+    border: none;
+}
+
 
 /* Start Header Area */
 
@@ -76,7 +83,6 @@ body {
         background-size: cover;
         position: relative;
         z-index: -2;
-        background-position-y: -40px;
         background-repeat: no-repeat;
     }
 
@@ -117,11 +123,37 @@ body {
         line-height: 24px;
     }
 
-    .banner .content .btn {
-        background-color: rgb(0, 192, 48) !important;
-        border-radius: 8px;
-        font-family: 'Grandstander', sans-serif;
+    .banner .content .tombol {
+        background-color: rgb(0, 192, 48);
     }
     /* End Banner */
+
+
+    /* Start About */
+    .about {
+        padding: 40px;
+        background-color: rgba(255, 68, 0, 0.466);
+    }
+    .about .kotak {
+        text-align: center;
+        background-color: rgb(0, 192, 48);
+        padding: 13px;
+        color: white;
+    }
+
+    .about h1 {
+        font-size: 24px;
+        font-family: 'Grandstander', sans-serif;
+    }
+
+    .about p {
+        font-size: 14px;
+        color: #fafafa;
+    }
+
+    .about .tombol {
+        background-color: white;
+    }
+    /* End About */
 
 /* End Main Area */
