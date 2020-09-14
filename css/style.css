@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.active {
+    color: orange;
+}
+
+
+/* Start Header Area */
+
+    /* Start Top Bar */
+    .top-bar {
+        background-color: rgb(0, 192, 48);
+        color: white;
+        padding: 3px;
+    }
+
+    .top-bar p {
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .top-bar .alamat, .top-bar .no-telp {
+        align-items: center;
+    }
+
+    .top-bar .social-media {
+        text-align: right;
+    }
+
+    .top-bar .social-media a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        margin-left: 6px;
+    }
+    /* End Top Bar */
+
+    /* Start Navbar */
+    .navbar {
+        background-color: white !important;
+    }
+
+    .navbar .navbar-nav li {
+        margin-left: 14px;
+    }
+
+    .navbar .navbar-nav li a {
+        font-family: 'Grandstander', sans-serif;
+        color: rgb(61, 61, 61) !important;
+        transition: all .3s;
+    }
+
+    .navbar .navbar-nav li a:hover {
+        color: orange !important;
+    }
+    /* End Navbar */
+
+/* End Header Area */
+
+
+/* Start Main Area */
+
+    /* Start Banner */
+    .banner {
+        height: 500px;
+        width: 100%;
+        background-image: url('../img/banner.jpg');
+        background-size: cover;
+        position: relative;
+        z-index: -2;
+        background-position-y: -40px;
+        background-repeat: no-repeat;
+    }
+
+    /* .banner::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(54, 54, 54, 0.315);
+        z-index: -1;
+    } */
+
+    .banner .content {
+        margin-top: 150px;
+        z-index: 1;
+    }
+
+    .banner .content h2 {
+        font-family: 'Grandstander', sans-serif;
+        font-size: 24px;
+        color: orange;
+    }
+
+    .banner .content h2 img {
+        width: 100px;
+    }
+
+    .banner .content h1 {
+        font-size: 36px;
+        font-family: 'Grandstander', sans-serif;
+    }
+
+    .banner .content p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .banner .content .btn {
+        background-color: rgb(0, 192, 48) !important;
+        border-radius: 8px;
+        font-family: 'Grandstander', sans-serif;
+    }
+    /* End Banner */
+
+/* End Main Area */
